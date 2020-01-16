@@ -30,7 +30,14 @@ class FirstViewController: UIViewController, UITextFieldDelegate {
     }
 
     @IBAction func Search(_ sender: UIButton) {
-        
+        FirstViewModel.search(string: searchTextField.text!, perPage: Int(numberTextField.text!)!) { result in
+            switch result {
+            case .success(let value):
+                print("success")
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
     }
     
     // MARK: - TextField

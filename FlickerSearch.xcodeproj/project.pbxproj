@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1BF0030D9F201811DA3D62D3 /* Pods_FlickerSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 608CF159BB31B0FA9389BD00 /* Pods_FlickerSearch.framework */; };
+		1D59E6F123CF64F400AE4744 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D59E6F023CF64F400AE4744 /* SearchResult.swift */; };
+		1D59E6F323CF67D700AE4744 /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D59E6F223CF67D700AE4744 /* ResponseError.swift */; };
 		1DEE0DF923CDBCB000C29202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEE0DF823CDBCB000C29202 /* AppDelegate.swift */; };
 		1DEE0DFB23CDBCB000C29202 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEE0DFA23CDBCB000C29202 /* SceneDelegate.swift */; };
 		1DEE0DFD23CDBCB000C29202 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEE0DFC23CDBCB000C29202 /* FirstViewController.swift */; };
@@ -18,6 +20,7 @@
 		1DEE0E0A23CDBCB700C29202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DEE0E0823CDBCB700C29202 /* LaunchScreen.storyboard */; };
 		1DEE0E1523CDBCB700C29202 /* FlickerSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEE0E1423CDBCB700C29202 /* FlickerSearchTests.swift */; };
 		1DEE0E2023CDBCB700C29202 /* FlickerSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEE0E1F23CDBCB700C29202 /* FlickerSearchUITests.swift */; };
+		1DEE0E2E23CDC4F900C29202 /* FirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEE0E2D23CDC4F900C29202 /* FirstViewModel.swift */; };
 		4EF6D0F5CFF72BF1EBD8AE2F /* Pods_FlickerSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9B6C8F08AFBAF7E57F0ED2 /* Pods_FlickerSearchTests.framework */; };
 		E747004EB1F41F35643A6A68 /* Pods_FlickerSearch_FlickerSearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8EC98DBE4D0C0DBB93F8F8 /* Pods_FlickerSearch_FlickerSearchUITests.framework */; };
 /* End PBXBuildFile section */
@@ -42,6 +45,8 @@
 /* Begin PBXFileReference section */
 		0B4FD8FCC7893F8F4839D3E0 /* Pods-FlickerSearch-FlickerSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickerSearch-FlickerSearchUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlickerSearch-FlickerSearchUITests/Pods-FlickerSearch-FlickerSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		19F4267B7B530184F542E45D /* Pods-FlickerSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickerSearchTests.release.xcconfig"; path = "Target Support Files/Pods-FlickerSearchTests/Pods-FlickerSearchTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D59E6F023CF64F400AE4744 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		1D59E6F223CF67D700AE4744 /* ResponseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseError.swift; sourceTree = "<group>"; };
 		1DEE0DF523CDBCB000C29202 /* FlickerSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickerSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DEE0DF823CDBCB000C29202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DEE0DFA23CDBCB000C29202 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +63,7 @@
 		1DEE0E1B23CDBCB700C29202 /* FlickerSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickerSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DEE0E1F23CDBCB700C29202 /* FlickerSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerSearchUITests.swift; sourceTree = "<group>"; };
 		1DEE0E2123CDBCB700C29202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DEE0E2D23CDC4F900C29202 /* FirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewModel.swift; sourceTree = "<group>"; };
 		27D3F1247C208A7F16DBB07A /* Pods-FlickerSearch-FlickerSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickerSearch-FlickerSearchUITests.release.xcconfig"; path = "Target Support Files/Pods-FlickerSearch-FlickerSearchUITests/Pods-FlickerSearch-FlickerSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4334127F583739AF9A9EB079 /* Pods-FlickerSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickerSearch.debug.xcconfig"; path = "Target Support Files/Pods-FlickerSearch/Pods-FlickerSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		608CF159BB31B0FA9389BD00 /* Pods_FlickerSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlickerSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +129,9 @@
 				1DEE0DF823CDBCB000C29202 /* AppDelegate.swift */,
 				1DEE0DFA23CDBCB000C29202 /* SceneDelegate.swift */,
 				1DEE0DFC23CDBCB000C29202 /* FirstViewController.swift */,
+				1DEE0E2D23CDC4F900C29202 /* FirstViewModel.swift */,
+				1D59E6F023CF64F400AE4744 /* SearchResult.swift */,
+				1D59E6F223CF67D700AE4744 /* ResponseError.swift */,
 				1DEE0DFE23CDBCB000C29202 /* SecondViewController.swift */,
 				1DEE0E0023CDBCB100C29202 /* Main.storyboard */,
 				1DEE0E0623CDBCB700C29202 /* Assets.xcassets */,
@@ -414,10 +423,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DEE0DFF23CDBCB000C29202 /* SecondViewController.swift in Sources */,
+				1D59E6F123CF64F400AE4744 /* SearchResult.swift in Sources */,
 				1DEE0DFD23CDBCB000C29202 /* FirstViewController.swift in Sources */,
 				1DEE0DF923CDBCB000C29202 /* AppDelegate.swift in Sources */,
 				1DEE0DFB23CDBCB000C29202 /* SceneDelegate.swift in Sources */,
 				1DEE0E0523CDBCB100C29202 /* FlickerSearch.xcdatamodeld in Sources */,
+				1DEE0E2E23CDC4F900C29202 /* FirstViewModel.swift in Sources */,
+				1D59E6F323CF67D700AE4744 /* ResponseError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
