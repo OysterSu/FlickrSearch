@@ -25,13 +25,9 @@ class PhotoCollectionViewCell: UICollectionViewCell {
         
         let queue = DispatchQueue.main
         queue.async {
-            do {
-                let data = try Data(contentsOf: url)
-                let image = UIImage(data: data)
-                self.imageView.image = image
-            } catch {
-                
-            }
+            guard let data = try? Data(contentsOf: url) else { return }
+            let image = UIImage(data: data)
+            self.imageView.image = image
         }
     }
 
