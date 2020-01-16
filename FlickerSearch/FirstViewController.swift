@@ -33,7 +33,10 @@ class FirstViewController: UIViewController, UITextFieldDelegate {
         FirstViewModel.search(string: searchTextField.text!, perPage: Int(numberTextField.text!)!) { result in
             switch result {
             case .success(let value):
-                print("success")
+                let controller = ResultCollectionViewController(nibName: "ResultCollectionViewController", bundle: nil)
+                let photos = value.photos.photo
+                controller.photos = photos
+                self.navigationController?.pushViewController(controller, animated: true)
             case .failure(let error):
                 print(error.localizedDescription)
             }

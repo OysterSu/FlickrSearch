@@ -34,7 +34,7 @@ class FirstViewModel {
 
             let decoder = JSONDecoder()
             let result = Result{ try decoder.decode(SearchResult.self, from: data) }
-
+            
             switch result {
             case .success(let value):
                 callback(.success(value))
