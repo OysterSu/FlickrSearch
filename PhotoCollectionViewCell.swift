@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class PhotoCollectionViewCell: UICollectionViewCell {
 
@@ -25,9 +26,7 @@ class PhotoCollectionViewCell: UICollectionViewCell {
         
         let queue = DispatchQueue.main
         queue.async {
-            guard let data = try? Data(contentsOf: url) else { return }
-            let image = UIImage(data: data)
-            self.imageView.image = image
+            self.imageView.kf.setImage(with: url)
         }
     }
 

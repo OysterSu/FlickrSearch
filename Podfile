@@ -7,6 +7,7 @@ target 'FlickerSearch' do
 
   # Pods for FlickerSearch
   pod 'Alamofire'
+  pod 'Kingfisher'
 
   target 'FlickerSearchTests' do
     inherit! :search_paths
